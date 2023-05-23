@@ -30,11 +30,11 @@ Created two datasets :
 ## Models
 for simplicity of computational using yolov8s for cars and plates detection and using yolov8n for character detection
 ## Training Results
-1. yolov8s model for detection cars and plates
+1. yolov8s model for cars and plates detection
 
 ![results (1)](https://github.com/shahabbai/PersianPlateRecog/assets/133869713/8cb0e04b-edc9-4f2a-b560-3daec538af6c)
 
-2. yolov8n model for detection characters
+2. yolov8n model for characters detection
 
 
 
