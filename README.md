@@ -24,9 +24,9 @@ python main.py
 ## Datasets
 Created two datasets :
 
-1. Dataset for detection cars and plates
+1. Dataset for detection cars and plates [Link](https://universe.roboflow.com/shahab-jafari-1vorv/persian-car)
 
-2. Dataset for detection chars of the plates
+2. Dataset for detection chars of the plates [Link](https://universe.roboflow.com/shahab-jafari-1vorv/persian-plate-characters-mvinj)
 ## Models
 for simplicity of computational using yolov8s for cars and plates detection and using yolov8n for character detection
 ## Training Results
