@@ -5,6 +5,7 @@ This Repo created for detect persian cars and plates and then recognize every pe
 
 ## Prerequisite
 yolov8 Ultralytics and all of Requirements for yolo8
+
 use python 3.10
 
 
