@@ -18,8 +18,18 @@ pip install ultralytics==8.0.104
 ```
 
 ## Run
+3 options for run:
+1.use the main python script
 ```
 python main.py
+```
+2.use my streamlit link on your browser(this run no need any installation):
+Streamlit
+
+3.use streamlit app.py and run it locally on your pc:
+```
+pip install streamlit
+streamlit run app.py
 ```
 ## Datasets
 Created two datasets :
