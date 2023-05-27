@@ -25,7 +25,7 @@ pip install ultralytics==8.0.104
 python main.py
 ```
 
-2.use my streamlit link on your browser(this run no need any installation):
+2.use my streamlit link on your browser(this option no need any installation):
 
 Streamlit
 
