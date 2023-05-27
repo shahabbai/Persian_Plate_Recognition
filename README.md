@@ -29,7 +29,7 @@ python main.py
 
 2.use my streamlit link on your browser(this option no need any installation):
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([url_of_your_streamlit_app](https://shahabbai-persianplaterecog-app-84qgn4.streamlit.app/))
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shahabbai-persianplaterecog-app-84qgn4.streamlit.app/)
 
 
 3.use streamlit app.py and run it locally on your pc:
