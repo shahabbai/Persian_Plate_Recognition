@@ -14,7 +14,7 @@ https://github.com/shahabbai/PersianPlateRecog/assets/133869713/3e4b013d-1eba-48
 
 ## Installation
 ```
-pip install ultralytics
+pip install ultralytics==8.0.104
 ```
 
 ## Run
