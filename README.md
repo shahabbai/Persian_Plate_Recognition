@@ -27,7 +27,7 @@ python main.py
 
 2.use my streamlit link on your browser(this option no need any installation):
 
-Streamlit
+[Streamlit](https://shahabbai-persianplaterecog-app-84qgn4.streamlit.app/)
 
 3.use streamlit app.py and run it locally on your pc:
 
