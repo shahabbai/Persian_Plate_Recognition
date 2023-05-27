@@ -4,7 +4,7 @@ Recognize Persian plate with YOLOv8
 This Repo created for detect persian cars and plates and then recognize every persian characters on the plate.
 
 ## Prerequisite
-yolov8 Ultralytics and all of Requirements for yolo8
+YOLOv8 Ultralytics and all of Requirements for YOLOv8
 
 use python 3.10
 
