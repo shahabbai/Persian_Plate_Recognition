@@ -35,6 +35,7 @@ python main.py
 
 ```
 pip install streamlit
+cd PersianPlateRecog
 streamlit run app.py
 ```
 ## Datasets
