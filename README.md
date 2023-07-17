@@ -11,7 +11,11 @@ use python 3.10
 
 ## Demo
 
-https://github.com/shahabbai/PersianPlateRecog/assets/133869713/3e4b013d-1eba-4896-8a2f-0e74a99535e1
+
+
+https://github.com/shahabbai/PersianPlateRecog/assets/133869713/ba761742-4dfa-4f29-a016-e3876cf0d8cf
+
+
 
 
 ## Installation
