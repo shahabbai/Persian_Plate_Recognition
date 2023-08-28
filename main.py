@@ -65,8 +65,8 @@ if total_frames > 1:
                         bbox = plate_output[0].boxes.xyxy
                         cls = plate_output[0].boxes.cls
                         #make a dict and sort it from left to right to show the correct characters of plate
-                        keys = cls.numpy().astype(int)
-                        values =bbox[:, 0].numpy().astype(int)
+                        keys = cls.cpu().numpy().astype(int)
+                        values = bbox[:, 0].cpu().numpy().astype(int)
                         dictionary = list(zip(keys, values))
                         sorted_list = sorted(dictionary, key=lambda x: x[1])
                         #convert all characters to a string
@@ -128,8 +128,8 @@ else: #do inference for image
                 bbox = plate_output[0].boxes.xyxy
                 cls = plate_output[0].boxes.cls
                 #make a dict and sort it from left to right to show the correct characters of plate
-                keys = cls.numpy().astype(int)
-                values =bbox[:, 0].numpy().astype(int)
+                keys = cls.cpu().numpy().astype(int)
+                values = bbox[:, 0].cpu().numpy().astype(int)
                 dictionary = list(zip(keys, values))
                 sorted_list = sorted(dictionary, key=lambda x: x[1])
                 #convert all characters to a string
