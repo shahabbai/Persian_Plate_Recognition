@@ -182,15 +182,17 @@ Persian_Plate_Recognition/
 - **Weights not found** — run `python3 cpp_tensorrt/scripts/export_onnx.py` first, and start the app from the repo root (or pass `--cars-model` / `--chars-model` explicitly).
 - **No preview window on a headless machine** — add `--no-display`; results are still saved to `output/` and logged to the console.
 
-## Legacy YOLOv8 training results (previous version of this repo)
+##  YOLOv26 training results
 
-1. yolov8s model for cars and plates detection
+1. yolov26s model for cars and plates detection
 
-![results (1)](https://github.com/shahabbai/PersianPlateRecog/assets/133869713/8cb0e04b-edc9-4f2a-b560-3daec538af6c)
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/299e15ac-c0c8-4574-8ce7-a969a8fb101e" />
 
-2. yolov8n model for characters detection
 
-![yolov8n_char_new_small](https://github.com/shahabbai/PersianPlateRecog/assets/133869713/59db56cf-94a4-4289-ad60-b8f58225b7c2)
+2. yolov26s model for characters detection
+
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/7f8d20d0-3ec8-46f6-a5e6-cda31f319058" />
+
 
 ## Acknowledgments
 
