@@ -23,10 +23,10 @@ https://github.com/shahabbai/PersianPlateRecog/assets/133869713/ba761742-4dfa-4f
 
 ## Models
 
-| Model | Weights | Classes | Dataset config |
-|---|---|---|---|
-| Cars & plates | `weights/cars_best_v26.pt` | 2 (`Car`, `Plate`) | `data.yaml` |
-| Plate characters | `weights/chars_best_v26.pt` | 39 (persian chars) | `ir_lpr.yaml` |
+| Model | Weights | Classes |
+|---|---|---|
+| Cars & plates | `weights/cars_best_v26.pt` | 2 (`Car`, `Plate`) |
+| Plate characters | `weights/chars_best_v26.pt` | 39 (persian chars) |
 
 Both models are NMS-free **end-to-end** YOLO26 (one-to-one head, max 300 detections).
 
