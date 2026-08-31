@@ -1,0 +1,11 @@
+# C++ / TensorRT build artifacts
+cpp_tensorrt/build/
+
+# Generated model files (exported from the .pt weights)
+weights/*.onnx
+weights/*.engine
+
+# Python
+__pycache__/
+*.pyc
+output/

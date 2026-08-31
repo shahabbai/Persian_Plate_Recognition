@@ -13,8 +13,8 @@ This tiny script can crop plate from a bunch of images
 
 """
 
-#load YOLOv8 model
-model_object = YOLO("../weights/best.pt")
+#load YOLO26 model
+model_object = YOLO("../weights/cars_best_v26.pt")
 
 cars_path = 'path to your cars images'
 plate_path = 'path for saving crop plates as jpg files'

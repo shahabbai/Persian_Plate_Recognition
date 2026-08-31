@@ -29,17 +29,16 @@ print(ROOT)
 SOURCES_LIST = ["Image", "Video", "Webcam"]
 
 
-# DL model config
+# DL model config (YOLO26)
 DETECTION_MODEL_DIR = ROOT / 'weights'
-#print(DETECTION_MODEL_DIR)
-YOLOv8n = DETECTION_MODEL_DIR / "yolov8n_char_new.pt"
-YOLOv8s = DETECTION_MODEL_DIR / "best.pt"
+CARS_MODEL = DETECTION_MODEL_DIR / "cars_best_v26.pt"    # car/plate detection (data.yaml, 2 classes)
+CHARS_MODEL = DETECTION_MODEL_DIR / "chars_best_v26.pt"  # plate char detection (ir_lpr.yaml, 39 classes)
 
 
 
 DETECTION_MODEL_LIST = [
-    "yolov8n.pt",
-    "yolov8s.pt"]
+    "cars_best_v26.pt",
+    "chars_best_v26.pt"]
 
 
 OBJECT_COUNTER = None

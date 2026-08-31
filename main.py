@@ -9,12 +9,17 @@ timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
 # Define the file name with the timestamp
 file_name = f'output_{timestamp}.jpg'
 classnames = ['car', 'plate']
-charclassnames = ['0','9','b','d','ein','ein','g','gh','h','n','s','1','malul','n','s','sad','t','ta','v','y','2'
-                  ,'3','4','5','6','7','8']
+# Latin display names for the plate characters.
+# The order MUST match ir_lpr.yaml (39 classes) used to train chars_best_v26.
+# (cv2.putText cannot render persian glyphs, so latin transliterations are drawn)
+charclassnames = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+                  'D', 'S', 'A', 'B', 'T', 'CER', 'S', 'J', 'D', 'Z',
+                  'S', 'SH', 'SAD', 'T', 'ZA', 'EIN', 'F', 'GH', 'L', 'M',
+                  'N', 'H', 'H2', 'V', 'P', 'ZHE', 'K', 'G', 'Y']
 source = "assets/video.mp4"
-#load YOLOv8 model
-model_object = YOLO("weights/best.pt")
-model_char = YOLO("weights/yolov8n_char_new.pt")
+# YOLO26 models (class definitions: data.yaml / ir_lpr.yaml)
+model_object = YOLO("weights/cars_best_v26.pt")
+model_char = YOLO("weights/chars_best_v26.pt")
 
 
 cap = cv2.VideoCapture(source)
