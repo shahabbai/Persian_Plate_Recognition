@@ -142,14 +142,7 @@ pip install ultralytics
 python main.py
 ```
 
-or with the streamlit app:
 
-```bash
-pip install streamlit
-streamlit run app.py
-```
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://shahabbai-persianplaterecog-app-84qgn4.streamlit.app/)
 
 The python scripts now load the same YOLO26 weights (`weights/cars_best_v26.pt`, `weights/chars_best_v26.pt`).
 
